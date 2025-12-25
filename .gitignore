@@ -1,0 +1,5 @@
+venv/
+.venv/
+Datasets/
+Model/*.h5
+*.zip
