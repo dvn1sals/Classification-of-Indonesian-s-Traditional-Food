@@ -89,7 +89,7 @@ MobileNetV2 adalah model yang paling cocok untuk studi kasus ini karena memberik
 * **Kelas Terbaik:** **Nasi Padang** (Precision 0.98) dan **Rendang** (Precision 0.96). Arsitektur ini sangat cocok dengan karakteristik dataset makanan ini.
 
 #### 3. ResNet50
-* **Performa:** Mengecewakan dengan akurasi hanya **44%**.
+* **Performa:** Akurasi hanya **44%**.
 * **Masalah:** Model gagal menggeneralisasi dengan baik. Precision dan Recall sangat rendah di semua kelas (terutama **Nasi Goreng** dengan Recall 0.20 dan **Sate** Recall 0.24). Hal ini kemungkinan disebabkan oleh kompleksitas model yang terlalu tinggi untuk jumlah data yang ada (*overfitting* parah) atau parameter *fine-tuning* yang belum optimal.
 
 ---
